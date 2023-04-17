@@ -1,0 +1,39 @@
+.header {
+  min-width: 40%;
+  max-width: 501px;
+  padding: 8px;
+  box-sizing: border-box;
+  text-align: start;
+}
+
+.loadingInfo {
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 16px;
+}
+
+.filePath {
+  height: 24px;
+  padding: 4px 10px;
+  box-sizing: border-box;
+  color: #505565;
+  background-color: #D3D4D8;
+  border-radius: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.renderDuration {
+  color: #232735;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.zoomButton {
+  height: 20px;
+  padding: 0;
+  margin: 8px;
+  border: none;
+  background: none;
+}

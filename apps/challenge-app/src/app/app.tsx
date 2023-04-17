@@ -1,10 +1,16 @@
 import styles from './app.module.scss';
 import { ChallengeEntry } from './challengeEntry';
-
+import { PdfViewer } from '@monorepo/components';
 import { ReactComponent as Logo } from './logo.svg';
-import star from './star.svg';
+// import star from './star.svg';
 
 export function App() {
+  const pathToFile =
+    // './Eng.pdf';
+    // './lyvyMarketSegment.pdf';
+    './StatementOfReturn.pdf';
+  // 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf';
+
   return (
     <div className={styles.app}>
       <header className="flex">
@@ -56,6 +62,9 @@ export function App() {
         </ul>
         <h2>Challenge Container:</h2>
         <ChallengeEntry />
+        {/* <div className={styles.pdfViewerWrapper}> */}
+        <PdfViewer pathToFile={pathToFile} />
+        {/* </div> */}
       </main>
     </div>
   );

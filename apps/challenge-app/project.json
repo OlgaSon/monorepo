@@ -16,7 +16,9 @@
         "tsConfig": "apps/challenge-app/tsconfig.app.json",
         "assets": [
           "apps/challenge-app/src/favicon.ico",
-          "apps/challenge-app/src/assets"
+          "apps/challenge-app/src/assets",
+          "apps/challenge-app/src/StatementOfReturn.pdf",
+          "apps/challenge-app/src/Eng.pdf"
         ],
         "styles": ["apps/challenge-app/src/styles.scss"],
         "scripts": [],

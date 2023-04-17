@@ -28,6 +28,9 @@
 
 .app :global(main) {
   padding: 0 36px;
+  // height: 1000px;
+  height: 950px;
+  // width:100%
 }
 
 .app :global(p) {
@@ -126,3 +129,7 @@
   width: 16px;
   margin-right: 4px;
 }
+
+// .pdfViewerWrapper{
+//   height: 500px
+// }
